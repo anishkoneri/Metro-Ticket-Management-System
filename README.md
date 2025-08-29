@@ -1,4 +1,5 @@
-#🚇 Metro Ticket Management System
+#Metro Ticket Management System
+
 The Metro Ticket Management System is a console-based C application designed to simulate ticket booking and smart card management for a metro system. The project illustrates robust use of structures, pointers, linked lists, and modular programming principles for organizing real-world workflows.
 
 ✨ Features
