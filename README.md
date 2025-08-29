@@ -1,34 +1,33 @@
-# Metro-Ticket-Management-System
-
-The Metro Ticket Management System is a software solution designed to simplify and digitize the process of issuing, managing, and validating metro tickets. This project provides a user-friendly interface for commuters and administrative tools for metro authorities to streamline daily operations.
+#🚇 Metro Ticket Management System
+The Metro Ticket Management System is a console-based C application designed to simulate ticket booking and smart card management for a metro system. The project illustrates robust use of structures, pointers, linked lists, and modular programming principles for organizing real-world workflows.
 
 ✨ Features
 
-🎟️ Ticket Booking & Validation – Users can book single-ride, return, or day-pass tickets.
+🎟️ Ticket Booking & Passenger Records
+Users can enter and store passenger details (name, age, contact, stations) through an interactive menu. Tickets are managed dynamically using linked lists for easy addition and retrieval.
 
-💳 Smart Card Integration – Recharge, balance check, and usage history tracking.
+💳 Smart Card Management
+Recharge, add new cards, and check balances for up to 10 smart cards, using array structures and secure OTP-like verification.
 
-📱 Digital & QR-Based Tickets – Generate secure QR codes for contactless travel.
+📋 Menu-driven Interface
+Intuitive prompts for booking tickets, viewing tickets, station and cost enquiries, train schedule, and smart card portal.
 
-🛡️ Admin Dashboard – Manage stations, routes, fares, and transaction history.
-
-📊 Reports & Analytics – View ticket sales and passenger usage data.
-
-🔒 Secure System – Encrypted transactions and secure data storage.
+📦 Modular Code Structure
+Clearly separated source files and functions for ticketing and smart card features, demonstrating maintainable C programming practices.
 
 🏗️ Tech Stack
 
-.Language: C
+Language: C
 
-.Core Concepts Used:
+Core Concepts Used:
 
-  .Structures
+Structures: To organize ticket and smart card data
 
-  .Pointers
+Pointers: For efficient linked list navigation and dynamic ticket creation
 
-  .Linked Lists (for ticket & passenger records)
+Linked Lists: Implemented for managing multiple tickets
 
-  .Dynamic Memory Allocation (malloc, free)
+Modular Programming: Divided logic via functions and clean code separation
 
-  .Modular Programming (header files & multiple C source files)
+Standard IO: All input/output via console menus
 
